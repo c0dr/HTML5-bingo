@@ -1,44 +1,34 @@
 
-var headerText = "Bingo";
+var headerText = "DHDL Bingo";
 
-var footerText = "<a href='https://github.com/jeffehobbs/HTML5-bingo/' target='_blank'>Code available on github</a>";
+var footerText = "<a href='https://github.com/jeffehobbs/HTML5-bingo/' target='_blank'>Code on GitHub</a>, Idee von <a href='http://www.deutsche-startups.de/dhdl-bullshit-bingo/'>Deutsche Startups</a>, <a href='https://simon-schraeder.de/impressum/'>Impressum</a>";
 
-var winText = "Winner";
-
-var clickSnd = new Audio("audio/click.mp3");
-
-var winSnd = new Audio("audio/win.mp3");
+var winText = "Bingo!";
 
 var JSONBingo = {"squares": [
-        {"square": "one"},
-        {"square": "two"},
-        {"square": "three"},
-        {"square": "four"},
-        {"square": "five"},
-        {"square": "six"},
-        {"square": "seven"},
-        {"square": "eight"},
-        {"square": "nine"},
-        {"square": "ten"},
-        {"square": "eleven"},
-        {"square": "twelve"},
-        {"square": "thirteen"},
-        {"square": "fourteen"},
-        {"square": "fifteen"},
-        {"square": "sixteen"},
-        {"square": "seventeen"},
-        {"square": "eighteen"},
-        {"square": "nineteen"},
-        {"square": "twenty"},
-        {"square": "twenty one"},
-        {"square": "twenty two"},
-        {"square": "twenty three"},
-        {"square": "twenty four"},    	
-        {"square": "twenty five"},    	
-        {"square": "twenty six"},    	
-        {"square": "twenty seven"}, 
-        {"square": "twenty eight"},    	
-        {"square": "twenty nine"},    	
-        {"square": "thirty"}    	
+        {"square": "Jochen,willst du ein Angebot machen?"},
+        {"square": "Ich bin raus!"},
+        {"square": "Deal"},
+        {"square": "Micky Maus"},
+        {"square": "Geschäftsmodell"},
+        {"square": "Umsatz"},
+        {"square": "Erfahrung"},
+        {"square": "Kein Investmentcase"},
+        {"square": "150.000 Euro"},
+        {"square": "Ralf macht‘s"},
+        {"square": "Angebot"},
+        {"square": "Mein Name ist"},
+        {"square": "Viel Erfolg"},
+        {"square": "Ich brauche mindestens"},
+        {"square": "Strategischer Partner"},
+        {"square": "Enchanté"},
+        {"square": "Potenzial"},
+        {"square": "Gegenangebot"},
+        {"square": "Judith, kannst du das verkaufen?"},
+        {"square": "Skalieren"},
+        {"square": "Sternstunde"},
+        {"square": "Mit der Hand am Arm"},
+        {"square": "Nische"},
+        {"square": "Unser Produkt"}
     ]
 };

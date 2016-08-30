@@ -11,9 +11,9 @@
 }
 
 body {
-	background-color: #a1a1a1;
-	background-image: url('../img/wood.background.png');
-	font-family: "BodoniSvtyTwoOSITCTT-Bold", "Georgia", serif;
+	background-color: #3498db;
+	font-family: "Open Sans", "Georgia", serif;
+	font-weight: 600;
 	text-rendering: optimizeLegibility;
 }
 
@@ -23,15 +23,13 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	background-color: none;
-}	
+}
 
 #header, #footer {
 	display: block;
 	float: left;
 	width: 600px;
-	color: #8B3E2F;
-	opacity: 0.5;
-	text-shadow: 0px 1px 0px #e1e1e1, 0px -1px 0px #313131;
+	color: #FFF;
    	background-color: none;
 	font-size: 2.8em;
 	font-weight: bold;
@@ -46,15 +44,11 @@ body {
 
 #footer {
 	text-align: center;
-	font-size: 1.4em;
+	font-size: 0.75em;
 	padding: 3px 20px;
 	margin-bottom: 80px;
 }
 
-#footer a {
-	text-decoration: none;
-	color: #8B3E2F;
-}
 
 #board {
 	display: block;
@@ -62,7 +56,6 @@ body {
 	width: 640px;
 	background-color: #fff;
 	margin-bottom: 10px;
-	box-shadow: 0px 3px #919191;
 }
 
 .square, .freesquare {
@@ -82,6 +75,12 @@ body {
 	-moz-transition-duration: 1s;
 	-webkit-transition-property: background-color;
 	-webkit-transition-duration: 1s;
+	word-wrap: break-word;
+}
+
+.freesquare {
+	background-image: url("../img/lion.jpg");
+	background-size: cover;
 }
 
 .selected {
@@ -90,10 +89,11 @@ body {
 }
 
 .text {
-	font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", Arial, sans-serif;
+	font-family: "Open Sans", sans-serif;
 	vertical-align: middle;
 	font-size: 1.2em;
 	line-height: 1.2em;
+	font-weight: 300;
 }
 
 .small {
@@ -110,11 +110,11 @@ body {
 
 .win {
 	color: #ffffff !important;
-   	background-color: red;
+   	background-color: #2ecc71;
 }
 
-@media only screen 
-and (min-device-width : 320px) 
+@media only screen
+and (min-device-width : 320px)
 and (max-device-width : 480px) {
 
 	#container {
@@ -127,8 +127,8 @@ and (max-device-width : 480px) {
 		text-align: center;
 		padding: 20px 20px 12px 20px;
 	}
-	
-	#footer {	
+
+	#footer {
 		padding: 16px 20px 8px 20px;
 		font-size: 2.0em;
 	}

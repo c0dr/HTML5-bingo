@@ -1,3 +1,9 @@
+Quick edit of HTML5-bingo written by J. Hobbs for a German TV show.
+(Please note, that this is not the sort of code I would use in production tbh. Was just one open source script I could quickly modify instead of writing from scratch. Good enough for a prototype)
+
+
+
+
 HTML5-bingo
 by J. Hobbs June 2012
 ---
@@ -17,4 +23,3 @@ WHAT IT IS:
 HOW TO USE:
 
 All data is kept in the "data.js" file. Customize the .json in the data.js file to change the language on the board.
-
